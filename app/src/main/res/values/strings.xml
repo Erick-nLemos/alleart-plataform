@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AlleArt</string>
+    <string name="strEquipe">Equipe</string>
+    <string name="strCursos">Cursos</string>
+    <string name="strMidia">Midia</string>
+    <string name="strV">Voltar</string>
+    <string name="strVoltar">VOLTAR</string>
+</resources>

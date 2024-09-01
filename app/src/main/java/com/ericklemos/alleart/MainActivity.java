@@ -28,4 +28,9 @@ public class MainActivity extends AppCompatActivity {
         tela = new Intent(getApplicationContext(), Cursos.class);
         startActivity(tela);
     }
+
+    public void clickMidia(View view){
+        tela = new Intent(getApplicationContext(), Midia.class);
+        startActivity(tela);
+    }
 }

@@ -56,6 +56,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="3dp"
             android:backgroundTint="@color/design_default_color_background"
+            android:onClick="clickMidia"
             android:text="@string/strMidia"
             android:textColor="@color/design_default_color_on_secondary"
             android:textSize="18sp"

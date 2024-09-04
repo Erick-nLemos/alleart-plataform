@@ -40,11 +40,12 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/textView3"
+                android:id="@+id/txtEquipeTitulo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/strEquipeTitulo"
                 android:textAlignment="center"
+                android:textColor="@color/black"
                 android:textSize="26sp"
                 android:textStyle="bold" />
 
@@ -64,21 +65,65 @@
                 android:textAlignment="center" />
 
             <TextView
-                android:id="@+id/textView5"
+                android:id="@+id/txtAlle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:padding="15dp"
+                android:paddingTop="15dp"
                 android:text="@string/strAllezinho"
                 android:textAlignment="center"
-                android:textSize="18sp" />
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
             <ImageView
-                android:id="@+id/imageView3"
+                android:id="@+id/imgAlle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:adjustViewBounds="true"
                 android:src="@tools:sample/avatars"
                 app:srcCompat="@drawable/allezinho" />
+
+            <TextView
+                android:id="@+id/txtLeila"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="15dp"
+                android:text="@string/strLailla"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imgLeila"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@tools:sample/avatars"
+                app:srcCompat="@drawable/laila" />
+
+            <TextView
+                android:id="@+id/txtPedro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="15dp"
+                android:text="@string/strPedro"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imgPedro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@tools:sample/avatars"
+                app:srcCompat="@drawable/pedrinho" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

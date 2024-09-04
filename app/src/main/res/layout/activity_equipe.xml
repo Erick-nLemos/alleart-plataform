@@ -54,7 +54,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="120dp"
                 android:adjustViewBounds="true"
-                android:src="@tools:sample/avatars"
                 app:srcCompat="@drawable/logoalleart" />
 
             <TextView
@@ -80,7 +79,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:adjustViewBounds="true"
-                android:src="@tools:sample/avatars"
                 app:srcCompat="@drawable/allezinho" />
 
             <TextView
@@ -99,7 +97,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:adjustViewBounds="true"
-                android:src="@tools:sample/avatars"
                 app:srcCompat="@drawable/laila" />
 
             <TextView
@@ -118,7 +115,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:adjustViewBounds="true"
-                android:src="@tools:sample/avatars"
                 app:srcCompat="@drawable/pedrinho" />
 
             <Space

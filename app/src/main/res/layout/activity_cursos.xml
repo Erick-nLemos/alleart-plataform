@@ -60,6 +60,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
                 android:adjustViewBounds="true"
+                android:onClick="clickCurPort"
+                android:contentDescription="no"
                 app:srcCompat="@drawable/cursoportugol" />
 
             <ImageView
@@ -69,6 +71,8 @@
                 android:layout_marginRight="10dp"
                 android:layout_weight="1"
                 android:adjustViewBounds="true"
+                android:onClick="clickCurC"
+                android:contentDescription="no"
                 app:srcCompat="@drawable/cursolingc" />
 
             <ImageView
@@ -78,6 +82,8 @@
                 android:layout_marginRight="10dp"
                 android:layout_weight="1"
                 android:adjustViewBounds="true"
+                android:onClick="clickCurAnd"
+                android:contentDescription="no"
                 app:srcCompat="@drawable/cursoandroid" />
 
             <ImageView
@@ -87,6 +93,8 @@
                 android:layout_marginRight="10dp"
                 android:layout_weight="1"
                 android:adjustViewBounds="true"
+                android:onClick="clickCurPHP"
+                android:contentDescription="no"
                 app:srcCompat="@drawable/cursophp" />
 
             <ImageView
@@ -96,6 +104,8 @@
                 android:layout_marginRight="10dp"
                 android:layout_weight="1"
                 android:adjustViewBounds="true"
+                android:onClick="clickCurCS"
+                android:contentDescription="no"
                 app:srcCompat="@drawable/cursolingcsharp" />
 
             <ImageView
@@ -105,15 +115,19 @@
                 android:layout_marginRight="10dp"
                 android:layout_weight="1"
                 android:adjustViewBounds="true"
+                android:onClick="clickCurKotlin"
+                android:contentDescription="no"
                 app:srcCompat="@drawable/cursokotlin" />
 
             <ImageView
                 android:id="@+id/imgProdV"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginRight="10dp"
+                android:layout_marginRight="5dp"
                 android:layout_weight="1"
                 android:adjustViewBounds="true"
+                android:onClick="clickCurProdV"
+                android:contentDescription="no"
                 app:srcCompat="@drawable/cursovideo" />
         </LinearLayout>
     </HorizontalScrollView>
